@@ -8,3 +8,17 @@ Started GET "/" for ::1 at 2015-11-16 16:12:00 -0600
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/admin/.rvm/gems/ruby-2.1.2/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
 Completed 200 OK in 48ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+Started GET "/hello_world" for ::1 at 2020-10-05 09:54:45 -0400
+Processing by StaticController#application as HTML
+  Rendering static/application.html.erb
+  Rendered static/application.html.erb (640.6ms)
+Completed 200 OK in 659ms (Views: 647.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hello_world" for ::1 at 2020-10-05 09:55:03 -0400
+Processing by StaticController#application as HTML
+  Rendering static/application.html.erb
+  Rendered static/application.html.erb (16.9ms)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
